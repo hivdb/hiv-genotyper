@@ -73,3 +73,6 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+.pyc
+__pycache__
