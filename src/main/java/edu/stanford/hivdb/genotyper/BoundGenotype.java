@@ -1,6 +1,14 @@
 package edu.stanford.hivdb.genotyper;
 
+import java.util.List;
+
 public interface BoundGenotype {
+	
+	/** get the sequence tested
+	 * 
+	 * @return String
+	 */
+	public String getSequence();
 
 	/** get first compared NA position
 	 * 
@@ -14,11 +22,17 @@ public interface BoundGenotype {
 	 */
 	public int getLastNA();
 	
-	/** get distance
+	/** get original distance
 	 * 
 	 * @return distance (double, < 1.0)
 	 */
 	public Double getDistance();
+
+	/** get distance in percent form
+	 * 
+	 * @return String
+	 */
+	public String getDistancePcnt();
 	
 	/** get reference
 	 * 
@@ -36,7 +50,7 @@ public interface BoundGenotype {
 	 * 
 	 * @return an array of position numbers
 	 */
-	public Integer[] getDiscordanceList();
+	public List<Integer> getDiscordanceList();
 
 	/** get display string
 	 * 

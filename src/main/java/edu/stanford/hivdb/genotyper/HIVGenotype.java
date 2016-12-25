@@ -37,19 +37,7 @@ public class HIVGenotype implements Genotype {
 			    new TypeToken<Map<String, HIVGenotype>>(){}.getType());
 	}
 
-	private HIVGenotype(
-			String name, String displayName,
-			String canonicalName, Boolean isSimpleCRF,
-			HIVClassificationLevel classificationLevel,
-			Double distanceTolerance, List<CRFRegion> regions) {
-		this.name = name;
-		this.displayName = displayName;
-		this.canonicalName = canonicalName;
-		this.isSimpleCRF = isSimpleCRF;
-		this.classificationLevel = classificationLevel;
-		this.distanceTolerance = distanceTolerance;
-		this.regions = regions;
-	}
+	private HIVGenotype() {}
 
 	public static HIVGenotype getInstance(String name) {
 		return genotypes.get(name);
@@ -96,6 +84,11 @@ public class HIVGenotype implements Genotype {
 		else {
 			return this;
 		}
+	}
+	
+	@Override
+	public String toString() {
+		return getDisplayName();
 	}
 
 }

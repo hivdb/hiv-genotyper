@@ -2,17 +2,21 @@ package edu.stanford.hivdb.genotyper;
 
 public interface GenotypeReference {
 	
-	/** calculate the distance between current reference and given sequence
+	/** compare given sequence with current reference
 	 * 
 	 * @param sequence a string of DNA sequence
-	 * @return distance (double, < 1.0) between the reference and given sequence
+	 * @param firstNA HXB2 starting position of the given sequence
+	 * @param lastNA HXB2 ending position of the given sequence
+	 * @return BoundGenotype object contained the comparison result
 	 */
-	public Double calculateDistance(String sequence);
+	public BoundGenotype compare(String sequence, int firstNA, int lastNA);
 	
 	/** a getter to get current reference's genotype
 	 * 
 	 * @return a Genotype object that indicates the corresponding genotype
 	 */
 	public Genotype getGenotype();
+
+	public String getAccession();
 	
 }

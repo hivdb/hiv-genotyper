@@ -13,6 +13,7 @@ conn = pymysql.connect(host='localhost',
                        cursorclass=pymysql.cursors.DictCursor)
 
 TARGET = '../src/main/resources/HIVGenotypes.json'
+TARGET_REFS = '../src/main/resources/HIVGenotypeReferences.json'
 
 
 def iter_query(sql, *args):
@@ -21,7 +22,29 @@ def iter_query(sql, *args):
         return cursor
 
 
-def export_json():
+def export_references():
+    sql = ("SELECT * FROM tblRefSeqs WHERE Include = 'Y' "
+           "AND Subtype <> 'U' "
+           'ORDER BY Subtype, AuthorYr, GBNum')
+    results = []
+    for row in iter_query(sql):
+        result = OrderedDict([
+            ('genotypeName', row['Subtype']),
+            ('country', row['Country']),
+            ('authorYear', row['AuthorYr']),
+            ('year', row['Year']),
+            ('accession', row['GBNum']),
+            ('firstNA', row['FirstNA']),
+            ('lastNA', row['LastNA']),
+            ('sequence', row['Sequence'])
+        ])
+        results.append(result)
+
+    with open(TARGET_REFS, 'w') as fp:
+        json.dump(results, fp, indent=2)
+
+
+def export_genotypes():
     sql = 'SELECT * FROM tblCRFSubtypes ORDER BY Subtype'
     genotypes = list(iter_query(sql))
 
@@ -62,4 +85,5 @@ def export_json():
 
 
 if __name__ == '__main__':
-    export_json()
+    export_genotypes()
+    export_references()
