@@ -46,6 +46,12 @@ public interface BoundGenotype {
 	 */
 	public Genotype getGenotype();
 	
+	/** get canonical / regional genotype
+	 * 
+	 * @return Genotype object
+	 */
+	public Genotype getDisplayGenotype();
+	
 	/** get discordance positions 
 	 * 
 	 * @return an array of position numbers

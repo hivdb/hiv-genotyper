@@ -70,6 +70,13 @@ public class HIVBoundGenotype implements BoundGenotype {
 		// TODO Auto-generated method stub
 		return discordanceList;
 	}
+	
+	@Override
+	public Genotype getDisplayGenotype() {
+		Genotype genotype = getGenotype();
+		genotype = genotype.getRegionalGenotype(firstNA, lastNA);
+		return genotype.getCanonicalGenotype();
+	}
 
 	@Override
 	public String getDisplay() {
