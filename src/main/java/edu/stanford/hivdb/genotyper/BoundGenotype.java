@@ -51,6 +51,12 @@ public interface BoundGenotype {
 	 * @return Genotype object
 	 */
 	public Genotype getDisplayGenotype();
+
+	/** get supplement genotype if existing
+	 * 
+	 * @return Genotype object
+	 */
+	public Genotype getSupplementGenotype();
 	
 	/** get discordance positions 
 	 * 

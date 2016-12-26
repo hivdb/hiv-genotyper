@@ -77,21 +77,35 @@ public class HIVBoundGenotype implements BoundGenotype {
 		genotype = genotype.getRegionalGenotype(firstNA, lastNA);
 		return genotype.getCanonicalGenotype();
 	}
+	
+	@Override
+	public Genotype getSupplementGenotype() {
+		Genotype genotype = getGenotype();
+		if (genotype != genotype.getCanonicalGenotype()) {
+			return genotype;
+		}
+		return null;
+	}
 
 	@Override
 	public String getDisplay() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	@Override
-	public String toString() {
 		StringBuffer buf = new StringBuffer();
-		buf.append(getGenotype().getDisplayName());
+		buf.append(getDisplayGenotype().getDisplayName());
+		Genotype secondary = getSupplementGenotype();
+		if (secondary != null) {
+			buf.append(" (");
+			buf.append(secondary.getDisplayName());
+			buf.append(")");
+		}
 		buf.append(" (");
 		buf.append(getDistancePcnt());
 		buf.append(")");
 		return buf.toString();
+	}
+	
+	@Override
+	public String toString() {
+		return getDisplay();
 	}
 
 }
