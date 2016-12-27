@@ -16,7 +16,7 @@ public class HIVGenotypeReferenceTest {
 		BoundGenotype primary = results.get(0);
 		assertEquals("X51", primary.getGenotype().getIndexName());
 		assertEquals("JN029801", primary.getReference().getAccession());
-		assertEquals(0.02358, primary.getDistance(), 1e-5);
+		assertEquals(0.02323, primary.getDistance(), 1e-5);
 		assertEquals("B", results.get(1).getGenotype().getIndexName());
 	}
 	
