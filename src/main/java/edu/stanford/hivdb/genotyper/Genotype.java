@@ -49,4 +49,6 @@ public interface Genotype {
 	 * @return Boolean
 	 */
 	public Boolean checkDistance(double distance);
+	
+	public Boolean isSubSubtype();
 }

@@ -87,6 +87,11 @@ public class HIVGenotype implements Genotype {
 	}
 	
 	@Override
+	public Boolean isSubSubtype() {
+		return this.classificationLevel == HIVClassificationLevel.SUBSUBTYPE;
+	}
+	
+	@Override
 	public String toString() {
 		return getDisplayName();
 	}

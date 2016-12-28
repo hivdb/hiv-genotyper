@@ -93,7 +93,8 @@ public class HIVGenotypeReference implements GenotypeReference {
 			}
 			char refNA = this.sequence.charAt(refOffset + i);
 			char seqNA = sequence.charAt(seqOffset + i);
-			if (ambiguousNAs.get(seqNA).indexOf(refNA) == -1) {
+			String uaSeqNA = ambiguousNAs.get(seqNA);
+			if (uaSeqNA != null && uaSeqNA.indexOf(refNA) == -1) {
 				// seqNA == refNA or seqNA's unambiguous NAs has refNA
 				curCodonDiscordance.add(maxFirstNA + i);
 			}
