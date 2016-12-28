@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class HIVGenotypeReferenceTest {
 
-	//@Test
+	@Test
 	public void testCompareAll() {
 		TestSequence seqX51 = TestSequence.loadResource("X51_full.json");
 		List<BoundGenotype> results = HIVGenotypeReference.compareAll(
@@ -28,7 +28,7 @@ public class HIVGenotypeReferenceTest {
 		assertEquals(68.0 / 2841,results.get(0).getDistance(), 1e-10);
 	}
 	
-	//@Test
+	@Test
 	public void testGetDisplayGenotype() {
 		TestSequence seqX51 = TestSequence.loadResource("X51_no_integrase.json");
 		List<BoundGenotype> results = HIVGenotypeReference.compareAll(
