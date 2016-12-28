@@ -23,7 +23,7 @@
     "canonicalName": "A", 
     "isSimpleCRF": false, 
     "classificationLevel": "SUBSUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "distanceTolerance": 3.0, 
     "regions": null
   }, 
   "B": {
@@ -459,9 +459,9 @@
   "X14": {
     "name": "X14", 
     "displayName": "CRF14_BG", 
-    "canonicalName": "G", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 4.0, 
     "regions": [
       {
@@ -474,9 +474,9 @@
   "X15": {
     "name": "X15", 
     "displayName": "CRF15_01B", 
-    "canonicalName": "X01", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 4.0, 
     "regions": [
       {
@@ -554,9 +554,9 @@
   "X19": {
     "name": "X19", 
     "displayName": "CRF19_cpx", 
-    "canonicalName": "D", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 6.0, 
     "regions": [
       {
@@ -774,9 +774,9 @@
   "X26": {
     "name": "X26", 
     "displayName": "CRF26_AU", 
-    "canonicalName": "A", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 5.0, 
     "regions": [
       {
@@ -1184,9 +1184,9 @@
   "X41": {
     "name": "X41", 
     "displayName": "CRF41_CD", 
-    "canonicalName": "D", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 5.0, 
     "regions": [
       {
@@ -1289,9 +1289,9 @@
   "X46": {
     "name": "X46", 
     "displayName": "CRF46_BF", 
-    "canonicalName": "F", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 4.0, 
     "regions": [
       {
@@ -1449,9 +1449,9 @@
   "X53": {
     "name": "X53", 
     "displayName": "CRF53_01B", 
-    "canonicalName": "X01", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 4.0, 
     "regions": [
       {
@@ -1574,9 +1574,9 @@
   "X57": {
     "name": "X57", 
     "displayName": "CRF57_BC", 
-    "canonicalName": "C", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 4.0, 
     "regions": [
       {
@@ -1784,9 +1784,9 @@
   "X65": {
     "name": "X65", 
     "displayName": "CRF65_cpx", 
-    "canonicalName": "C", 
+    "canonicalName": null, 
     "isSimpleCRF": true, 
-    "classificationLevel": "SUBSUBTYPE", 
+    "classificationLevel": "SUBTYPE", 
     "distanceTolerance": 4.0, 
     "regions": [
       {
