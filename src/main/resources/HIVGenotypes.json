@@ -1,1807 +1,1807 @@
 {
   "A": {
-    "name": "A", 
-    "displayName": "A", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "A",
+    "displayName": "A",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "A2": {
-    "name": "A2", 
-    "displayName": "A2", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "A2",
+    "displayName": "A2",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": null
-  }, 
+  },
   "A_FSU": {
-    "name": "A_FSU", 
-    "displayName": "A_FSU", 
-    "canonicalName": "A", 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBSUBTYPE", 
-    "distanceTolerance": 3.0, 
+    "name": "A_FSU",
+    "displayName": "A_FSU",
+    "canonicalName": "A",
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBSUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": null
-  }, 
+  },
   "B": {
-    "name": "B", 
-    "displayName": "B", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "B",
+    "displayName": "B",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "C": {
-    "name": "C", 
-    "displayName": "C", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "C",
+    "displayName": "C",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "D": {
-    "name": "D", 
-    "displayName": "D", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "D",
+    "displayName": "D",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "F": {
-    "name": "F", 
-    "displayName": "F", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "F",
+    "displayName": "F",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "F2": {
-    "name": "F2", 
-    "displayName": "F2", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "F2",
+    "displayName": "F2",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": null
-  }, 
+  },
   "G": {
-    "name": "G", 
-    "displayName": "G", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "G",
+    "displayName": "G",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "H": {
-    "name": "H", 
-    "displayName": "H", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "H",
+    "displayName": "H",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 7.0,
     "regions": null
-  }, 
+  },
   "HIV2": {
-    "name": "HIV2", 
-    "displayName": "HIV2", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SPECIES", 
-    "distanceTolerance": 25.0, 
+    "name": "HIV2",
+    "displayName": "HIV2",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SPECIES",
+    "distanceTolerance": 25.0,
     "regions": null
-  }, 
+  },
   "J": {
-    "name": "J", 
-    "displayName": "J", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "J",
+    "displayName": "J",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": null
-  }, 
+  },
   "K": {
-    "name": "K", 
-    "displayName": "K", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "K",
+    "displayName": "K",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": null
-  }, 
+  },
   "N": {
-    "name": "N", 
-    "displayName": "Group N", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "GROUP", 
-    "distanceTolerance": 15.0, 
+    "name": "N",
+    "displayName": "Group N",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "GROUP",
+    "distanceTolerance": 15.0,
     "regions": null
-  }, 
+  },
   "O": {
-    "name": "O", 
-    "displayName": "Group O", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "GROUP", 
-    "distanceTolerance": 15.0, 
+    "name": "O",
+    "displayName": "Group O",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "GROUP",
+    "distanceTolerance": 15.0,
     "regions": null
-  }, 
+  },
   "P": {
-    "name": "P", 
-    "displayName": "Group P", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "GROUP", 
-    "distanceTolerance": 15.0, 
+    "name": "P",
+    "displayName": "Group P",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "GROUP",
+    "distanceTolerance": 15.0,
     "regions": null
-  }, 
+  },
   "X01": {
-    "name": "X01", 
-    "displayName": "CRF01_AE", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X01",
+    "displayName": "CRF01_AE",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 5.0,
     "regions": null
-  }, 
+  },
   "X02": {
-    "name": "X02", 
-    "displayName": "CRF02_AG", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X02",
+    "displayName": "CRF02_AG",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": null
-  }, 
+  },
   "X03": {
-    "name": "X03", 
-    "displayName": "CRF03_AB", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X03",
+    "displayName": "CRF03_AB",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "A", 
-        "start": 2253, 
+        "genotypeName": "A",
+        "start": 2253,
         "end": 2687
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2687, 
+        "genotypeName": "B",
+        "start": 2687,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X04": {
-    "name": "X04", 
-    "displayName": "CRF04_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X04",
+    "displayName": "CRF04_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": [
       {
-        "genotypeName": "K", 
-        "start": 2253, 
+        "genotypeName": "K",
+        "start": 2253,
         "end": 3717
-      }, 
+      },
       {
-        "genotypeName": "U", 
-        "start": 3717, 
+        "genotypeName": "U",
+        "start": 3717,
         "end": 4415
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 4415, 
+        "genotypeName": "G",
+        "start": 4415,
         "end": 4937
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 4937, 
+        "genotypeName": "A",
+        "start": 4937,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X05": {
-    "name": "X05", 
-    "displayName": "CRF05_DF", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X05",
+    "displayName": "CRF05_DF",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": [
       {
-        "genotypeName": "U", 
-        "start": 3750, 
+        "genotypeName": "U",
+        "start": 3750,
         "end": 5190
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 3396, 
+        "genotypeName": "D",
+        "start": 3396,
         "end": 3750
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2845, 
+        "genotypeName": "F",
+        "start": 2845,
         "end": 3396
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 2845
       }
     ]
-  }, 
+  },
   "X06": {
-    "name": "X06", 
-    "displayName": "CRF06_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X06",
+    "displayName": "CRF06_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": [
       {
-        "genotypeName": "X06", 
-        "start": 2253, 
+        "genotypeName": "X06",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X07": {
-    "name": "X07", 
-    "displayName": "CRF07_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X07",
+    "displayName": "CRF07_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 3311, 
+        "genotypeName": "C",
+        "start": 3311,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3011, 
+        "genotypeName": "B",
+        "start": 3011,
         "end": 3310
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 2621, 
+        "genotypeName": "C",
+        "start": 2621,
         "end": 3010
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 2620
       }
     ]
-  }, 
+  },
   "X08": {
-    "name": "X08", 
-    "displayName": "CRF08_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X08",
+    "displayName": "CRF08_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 2852
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2853, 
+        "genotypeName": "B",
+        "start": 2853,
         "end": 3149
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 3150, 
+        "genotypeName": "C",
+        "start": 3150,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X09": {
-    "name": "X09", 
-    "displayName": "CRF09_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "X09",
+    "displayName": "CRF09_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": [
       {
-        "genotypeName": "X09", 
-        "start": 2253, 
+        "genotypeName": "X09",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X10": {
-    "name": "X10", 
-    "displayName": "CRF10_CD", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X10",
+    "displayName": "CRF10_CD",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 5.0,
     "regions": [
       {
-        "genotypeName": "U", 
-        "start": 3616, 
+        "genotypeName": "U",
+        "start": 3616,
         "end": 4316
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 4815, 
+        "genotypeName": "C",
+        "start": 4815,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 4317, 
+        "genotypeName": "D",
+        "start": 4317,
         "end": 4814
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 3187, 
+        "genotypeName": "C",
+        "start": 3187,
         "end": 3615
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 3186
       }
     ]
-  }, 
+  },
   "X11": {
-    "name": "X11", 
-    "displayName": "CRF11_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 7.0, 
+    "name": "X11",
+    "displayName": "CRF11_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 6.0,
     "regions": [
       {
-        "genotypeName": "U", 
-        "start": 3090, 
+        "genotypeName": "U",
+        "start": 3090,
         "end": 3489
-      }, 
+      },
       {
-        "genotypeName": "J", 
-        "start": 3490, 
+        "genotypeName": "J",
+        "start": 3490,
         "end": 4039
-      }, 
+      },
       {
-        "genotypeName": "J", 
-        "start": 2253, 
+        "genotypeName": "J",
+        "start": 2253,
         "end": 3089
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 4040, 
+        "genotypeName": "A",
+        "start": 4040,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X12": {
-    "name": "X12", 
-    "displayName": "CRF12_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X12",
+    "displayName": "CRF12_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 2473, 
+        "genotypeName": "B",
+        "start": 2473,
         "end": 2640
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2641, 
+        "genotypeName": "F",
+        "start": 2641,
         "end": 3025
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 3689, 
+        "genotypeName": "F",
+        "start": 3689,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3026, 
+        "genotypeName": "B",
+        "start": 3026,
         "end": 3688
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2472
       }
     ]
-  }, 
+  },
   "X13": {
-    "name": "X13", 
-    "displayName": "CRF13_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X13",
+    "displayName": "CRF13_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 5.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 2372
-      }, 
+      },
       {
-        "genotypeName": "J", 
-        "start": 2373, 
+        "genotypeName": "J",
+        "start": 2373,
         "end": 3140
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 3141, 
+        "genotypeName": "G",
+        "start": 3141,
         "end": 5008
-      }, 
+      },
       {
-        "genotypeName": "J", 
-        "start": 5008, 
+        "genotypeName": "J",
+        "start": 5008,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X14": {
-    "name": "X14", 
-    "displayName": "CRF14_BG", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X14",
+    "displayName": "CRF14_BG",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X15": {
-    "name": "X15", 
-    "displayName": "CRF15_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X15",
+    "displayName": "CRF15_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 2253, 
+        "genotypeName": "X01",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X16": {
-    "name": "X16", 
-    "displayName": "CRF16_A2D", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X16",
+    "displayName": "CRF16_A2D",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "A2", 
-        "start": 3169, 
+        "genotypeName": "A2",
+        "start": 3169,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 2990, 
+        "genotypeName": "D",
+        "start": 2990,
         "end": 3168
-      }, 
+      },
       {
-        "genotypeName": "A2", 
-        "start": 2253, 
+        "genotypeName": "A2",
+        "start": 2253,
         "end": 2989
       }
     ]
-  }, 
+  },
   "X17": {
-    "name": "X17", 
-    "displayName": "CRF17_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X17",
+    "displayName": "CRF17_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2806
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2807, 
+        "genotypeName": "B",
+        "start": 2807,
         "end": 3710
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 3710, 
+        "genotypeName": "F",
+        "start": 3710,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X18": {
-    "name": "X18", 
-    "displayName": "CRF18_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X18",
+    "displayName": "CRF18_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 4.0,
     "regions": [
       {
-        "genotypeName": "X18", 
-        "start": 2253, 
+        "genotypeName": "X18",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X19": {
-    "name": "X19", 
-    "displayName": "CRF19_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X19",
+    "displayName": "CRF19_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 4.0,
     "regions": [
       {
-        "genotypeName": "A", 
-        "start": 4240, 
+        "genotypeName": "A",
+        "start": 4240,
         "end": 4671
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 4672, 
+        "genotypeName": "G",
+        "start": 4672,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 4239
       }
     ]
-  }, 
+  },
   "X20": {
-    "name": "X20", 
-    "displayName": "CRF20_BG", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X20",
+    "displayName": "CRF20_BG",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 4150, 
+        "genotypeName": "G",
+        "start": 4150,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3294, 
+        "genotypeName": "B",
+        "start": 3294,
         "end": 4149
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 3182, 
+        "genotypeName": "G",
+        "start": 3182,
         "end": 3293
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2976, 
+        "genotypeName": "B",
+        "start": 2976,
         "end": 3181
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2742, 
+        "genotypeName": "G",
+        "start": 2742,
         "end": 2975
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2552, 
+        "genotypeName": "B",
+        "start": 2552,
         "end": 2741
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 2551
       }
     ]
-  }, 
+  },
   "X21": {
-    "name": "X21", 
-    "displayName": "CRF21_A2D", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X21",
+    "displayName": "CRF21_A2D",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 3565
-      }, 
+      },
       {
-        "genotypeName": "A2", 
-        "start": 3566, 
+        "genotypeName": "A2",
+        "start": 3566,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X22": {
-    "name": "X22", 
-    "displayName": "CRF22_01A1", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X22",
+    "displayName": "CRF22_01A1",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 2253, 
+        "genotypeName": "X01",
+        "start": 2253,
         "end": 2666
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 2666, 
+        "genotypeName": "A",
+        "start": 2666,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X23": {
-    "name": "X23", 
-    "displayName": "CRF23_BG", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X23",
+    "displayName": "CRF23_BG",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 4149, 
+        "genotypeName": "B",
+        "start": 4149,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2975, 
+        "genotypeName": "B",
+        "start": 2975,
         "end": 4149
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2795, 
+        "genotypeName": "G",
+        "start": 2795,
         "end": 2974
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2552, 
+        "genotypeName": "B",
+        "start": 2552,
         "end": 2794
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 2552
       }
     ]
-  }, 
+  },
   "X24": {
-    "name": "X24", 
-    "displayName": "CRF24_BG", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X24",
+    "displayName": "CRF24_BG",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 4150, 
+        "genotypeName": "G",
+        "start": 4150,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3381, 
+        "genotypeName": "B",
+        "start": 3381,
         "end": 4149
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 3294, 
+        "genotypeName": "G",
+        "start": 3294,
         "end": 3380
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2976, 
+        "genotypeName": "B",
+        "start": 2976,
         "end": 3293
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2843, 
+        "genotypeName": "G",
+        "start": 2843,
         "end": 2975
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2553, 
+        "genotypeName": "B",
+        "start": 2553,
         "end": 2843
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 2552
       }
     ]
-  }, 
+  },
   "X25": {
-    "name": "X25", 
-    "displayName": "CRF25_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X25",
+    "displayName": "CRF25_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 5.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 3127
-      }, 
+      },
       {
-        "genotypeName": "U", 
-        "start": 3127, 
+        "genotypeName": "U",
+        "start": 3127,
         "end": 3690
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 3691, 
+        "genotypeName": "A",
+        "start": 3691,
         "end": 4002
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 4003, 
+        "genotypeName": "G",
+        "start": 4003,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X26": {
-    "name": "X26", 
-    "displayName": "CRF26_AU", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X26",
+    "displayName": "CRF26_AU",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "A", 
-        "start": 4516, 
+        "genotypeName": "A",
+        "start": 4516,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "U", 
-        "start": 4236, 
+        "genotypeName": "U",
+        "start": 4236,
         "end": 4515
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 2681, 
+        "genotypeName": "A",
+        "start": 2681,
         "end": 4235
-      }, 
+      },
       {
-        "genotypeName": "U", 
-        "start": 2380, 
+        "genotypeName": "U",
+        "start": 2380,
         "end": 2680
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 2253, 
+        "genotypeName": "A",
+        "start": 2253,
         "end": 2379
       }
     ]
-  }, 
+  },
   "X27": {
-    "name": "X27", 
-    "displayName": "CRF27_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X27",
+    "displayName": "CRF27_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 4.0,
     "regions": [
       {
-        "genotypeName": "H", 
-        "start": 2253, 
+        "genotypeName": "H",
+        "start": 2253,
         "end": 2699
-      }, 
+      },
       {
-        "genotypeName": "J", 
-        "start": 2700, 
+        "genotypeName": "J",
+        "start": 2700,
         "end": 3987
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 3988, 
+        "genotypeName": "G",
+        "start": 3988,
         "end": 4899
-      }, 
+      },
       {
-        "genotypeName": "J", 
-        "start": 4900, 
+        "genotypeName": "J",
+        "start": 4900,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X28": {
-    "name": "X28", 
-    "displayName": "CRF28_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X28",
+    "displayName": "CRF28_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 2572, 
+        "genotypeName": "B",
+        "start": 2572,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2571
       }
     ]
-  }, 
+  },
   "X29": {
-    "name": "X29", 
-    "displayName": "CRF29_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X29",
+    "displayName": "CRF29_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 4.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2571
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2572, 
+        "genotypeName": "B",
+        "start": 2572,
         "end": 36882
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 3683, 
+        "genotypeName": "F",
+        "start": 3683,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X30": {
-    "name": "X30", 
-    "displayName": "CRF30_A206", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X30",
+    "displayName": "CRF30_A206",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "X02", 
-        "start": 2253, 
+        "genotypeName": "X02",
+        "start": 2253,
         "end": 4750
-      }, 
+      },
       {
-        "genotypeName": "X06", 
-        "start": 4750, 
+        "genotypeName": "X06",
+        "start": 4750,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X31": {
-    "name": "X31", 
-    "displayName": "CRF31_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X31",
+    "displayName": "CRF31_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 3198, 
+        "genotypeName": "C",
+        "start": 3198,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 2975
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2976, 
+        "genotypeName": "B",
+        "start": 2976,
         "end": 3197
       }
     ]
-  }, 
+  },
   "X32": {
-    "name": "X32", 
-    "displayName": "CRF32_06A1", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X32",
+    "displayName": "CRF32_06A1",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X06", 
-        "start": 2253, 
+        "genotypeName": "X06",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X33": {
-    "name": "X33", 
-    "displayName": "CRF33_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X33",
+    "displayName": "CRF33_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 2396
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 2397, 
+        "genotypeName": "X01",
+        "start": 2397,
         "end": 2539
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2540, 
+        "genotypeName": "B",
+        "start": 2540,
         "end": 2858
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 2859, 
+        "genotypeName": "X01",
+        "start": 2859,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X34": {
-    "name": "X34", 
-    "displayName": "CRF34_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X34",
+    "displayName": "CRF34_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 3001, 
+        "genotypeName": "X01",
+        "start": 3001,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 3000
       }
     ]
-  }, 
+  },
   "X35": {
-    "name": "X35", 
-    "displayName": "CRF35_AD", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X35",
+    "displayName": "CRF35_AD",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "A", 
-        "start": 3539, 
+        "genotypeName": "A",
+        "start": 3539,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 3185, 
+        "genotypeName": "D",
+        "start": 3185,
         "end": 3538
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 3100, 
+        "genotypeName": "A",
+        "start": 3100,
         "end": 3184
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 2902, 
+        "genotypeName": "D",
+        "start": 2902,
         "end": 3099
-      }, 
+      },
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 2444
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 2445, 
+        "genotypeName": "A",
+        "start": 2445,
         "end": 2901
       }
     ]
-  }, 
+  },
   "X36": {
-    "name": "X36", 
-    "displayName": "CRF36_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X36",
+    "displayName": "CRF36_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 4307, 
+        "genotypeName": "G",
+        "start": 4307,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "X02", 
-        "start": 4074, 
+        "genotypeName": "X02",
+        "start": 4074,
         "end": 4306
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 3358, 
+        "genotypeName": "A",
+        "start": 3358,
         "end": 4073
-      }, 
+      },
       {
-        "genotypeName": "X02", 
-        "start": 2253, 
+        "genotypeName": "X02",
+        "start": 2253,
         "end": 3357
       }
     ]
-  }, 
+  },
   "X37": {
-    "name": "X37", 
-    "displayName": "CRF37_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X37",
+    "displayName": "CRF37_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "A", 
-        "start": 2914, 
+        "genotypeName": "A",
+        "start": 2914,
         "end": 4663
-      }, 
+      },
       {
-        "genotypeName": "U", 
-        "start": 4664, 
+        "genotypeName": "U",
+        "start": 4664,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 2913
       }
     ]
-  }, 
+  },
   "X38": {
-    "name": "X38", 
-    "displayName": "CRF38_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X38",
+    "displayName": "CRF38_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 3714, 
+        "genotypeName": "F",
+        "start": 3714,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2461, 
+        "genotypeName": "B",
+        "start": 2461,
         "end": 3713
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2460
       }
     ]
-  }, 
+  },
   "X39": {
-    "name": "X39", 
-    "displayName": "CRF39_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X39",
+    "displayName": "CRF39_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 4.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 3867, 
+        "genotypeName": "B",
+        "start": 3867,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 3650, 
+        "genotypeName": "F",
+        "start": 3650,
         "end": 3866
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3021, 
+        "genotypeName": "B",
+        "start": 3021,
         "end": 3649
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2836, 
+        "genotypeName": "F",
+        "start": 2836,
         "end": 3020
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 2836
       }
     ]
-  }, 
+  },
   "X40": {
-    "name": "X40", 
-    "displayName": "CRF40_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X40",
+    "displayName": "CRF40_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 4859, 
+        "genotypeName": "F",
+        "start": 4859,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3867, 
+        "genotypeName": "B",
+        "start": 3867,
         "end": 4858
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2632, 
+        "genotypeName": "F",
+        "start": 2632,
         "end": 3866
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2459, 
+        "genotypeName": "B",
+        "start": 2459,
         "end": 2631
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2458
       }
     ]
-  }, 
+  },
   "X41": {
-    "name": "X41", 
-    "displayName": "CRF41_CD", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X41",
+    "displayName": "CRF41_CD",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X42": {
-    "name": "X42", 
-    "displayName": "CRF42_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X42",
+    "displayName": "CRF42_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 4353
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 4353, 
+        "genotypeName": "F",
+        "start": 4353,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X43": {
-    "name": "X43", 
-    "displayName": "CRF43_02G", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 5.0, 
+    "name": "X43",
+    "displayName": "CRF43_02G",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "G", 
-        "start": 2253, 
+        "genotypeName": "G",
+        "start": 2253,
         "end": 3325
-      }, 
+      },
       {
-        "genotypeName": "X02", 
-        "start": 3326, 
+        "genotypeName": "X02",
+        "start": 3326,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X44": {
-    "name": "X44", 
-    "displayName": "CRF44_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X44",
+    "displayName": "CRF44_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 3697, 
+        "genotypeName": "F",
+        "start": 3697,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2936, 
+        "genotypeName": "B",
+        "start": 2936,
         "end": 3696
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2725, 
+        "genotypeName": "F",
+        "start": 2725,
         "end": 2935
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2470, 
+        "genotypeName": "B",
+        "start": 2470,
         "end": 2725
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2470
       }
     ]
-  }, 
+  },
   "X45": {
-    "name": "X45", 
-    "displayName": "CRF45_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X45",
+    "displayName": "CRF45_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 5.0,
     "regions": [
       {
-        "genotypeName": "X45", 
-        "start": 2253, 
+        "genotypeName": "X45",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X46": {
-    "name": "X46", 
-    "displayName": "CRF46_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X46",
+    "displayName": "CRF46_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X47": {
-    "name": "X47", 
-    "displayName": "CRF47_BF", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X47",
+    "displayName": "CRF47_BF",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "F", 
-        "start": 4912, 
+        "genotypeName": "F",
+        "start": 4912,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 4295, 
+        "genotypeName": "B",
+        "start": 4295,
         "end": 4911
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 4036, 
+        "genotypeName": "F",
+        "start": 4036,
         "end": 4294
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2845, 
+        "genotypeName": "B",
+        "start": 2845,
         "end": 4035
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2253, 
+        "genotypeName": "F",
+        "start": 2253,
         "end": 2398
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2398, 
+        "genotypeName": "B",
+        "start": 2398,
         "end": 2568
-      }, 
+      },
       {
-        "genotypeName": "F", 
-        "start": 2569, 
+        "genotypeName": "F",
+        "start": 2569,
         "end": 2845
       }
     ]
-  }, 
+  },
   "X48": {
-    "name": "X48", 
-    "displayName": "CRF48_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X48",
+    "displayName": "CRF48_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 3123
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 3124, 
+        "genotypeName": "X01",
+        "start": 3124,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X49": {
-    "name": "X49", 
-    "displayName": "CRF49_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X49",
+    "displayName": "CRF49_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 5.0,
     "regions": [
       {
-        "genotypeName": "X49", 
-        "start": 2253, 
+        "genotypeName": "X49",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X50": {
-    "name": "X50", 
-    "displayName": "CRF50_A1D", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X50",
+    "displayName": "CRF50_A1D",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "D", 
-        "start": 2253, 
+        "genotypeName": "D",
+        "start": 2253,
         "end": 2490
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 2491, 
+        "genotypeName": "A",
+        "start": 2491,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X51": {
-    "name": "X51", 
-    "displayName": "CRF51_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X51",
+    "displayName": "CRF51_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 4301, 
+        "genotypeName": "X01",
+        "start": 4301,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 4301
       }
     ]
-  }, 
+  },
   "X52": {
-    "name": "X52", 
-    "displayName": "CRF52_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X52",
+    "displayName": "CRF52_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 2253, 
+        "genotypeName": "X01",
+        "start": 2253,
         "end": 2930
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2931, 
+        "genotypeName": "B",
+        "start": 2931,
         "end": 3251
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 3252, 
+        "genotypeName": "X01",
+        "start": 3252,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X53": {
-    "name": "X53", 
-    "displayName": "CRF53_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X53",
+    "displayName": "CRF53_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 2400, 
+        "genotypeName": "X01",
+        "start": 2400,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 2399
       }
     ]
-  }, 
+  },
   "X54": {
-    "name": "X54", 
-    "displayName": "CRF54_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X54",
+    "displayName": "CRF54_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 3194
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 3195, 
+        "genotypeName": "X01",
+        "start": 3195,
         "end": 3521
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3522, 
+        "genotypeName": "B",
+        "start": 3522,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X55": {
-    "name": "X55", 
-    "displayName": "CRF55_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X55",
+    "displayName": "CRF55_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 4453, 
+        "genotypeName": "X01",
+        "start": 4453,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3768, 
+        "genotypeName": "B",
+        "start": 3768,
         "end": 4453
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 3330, 
+        "genotypeName": "X01",
+        "start": 3330,
         "end": 3767
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3061, 
+        "genotypeName": "B",
+        "start": 3061,
         "end": 3329
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 2253, 
+        "genotypeName": "X01",
+        "start": 2253,
         "end": 3060
       }
     ]
-  }, 
+  },
   "X56": {
-    "name": "X56", 
-    "displayName": "CRF56_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": false, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 6.0, 
+    "name": "X56",
+    "displayName": "CRF56_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "X02", 
-        "start": 4812, 
+        "genotypeName": "X02",
+        "start": 4812,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 4430, 
+        "genotypeName": "B",
+        "start": 4430,
         "end": 4812
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 3833, 
+        "genotypeName": "X01",
+        "start": 3833,
         "end": 4429
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3335, 
+        "genotypeName": "B",
+        "start": 3335,
         "end": 3833
-      }, 
+      },
       {
-        "genotypeName": "X02", 
-        "start": 3205, 
+        "genotypeName": "X02",
+        "start": 3205,
         "end": 3334
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2704, 
+        "genotypeName": "B",
+        "start": 2704,
         "end": 3204
-      }, 
+      },
       {
-        "genotypeName": "X02", 
-        "start": 2253, 
+        "genotypeName": "X02",
+        "start": 2253,
         "end": 2703
       }
     ]
-  }, 
+  },
   "X57": {
-    "name": "X57", 
-    "displayName": "CRF57_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X57",
+    "displayName": "CRF57_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X58": {
-    "name": "X58", 
-    "displayName": "CRF58_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X58",
+    "displayName": "CRF58_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 3503, 
+        "genotypeName": "X01",
+        "start": 3503,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3227, 
+        "genotypeName": "B",
+        "start": 3227,
         "end": 3502
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 2679, 
+        "genotypeName": "X01",
+        "start": 2679,
         "end": 3227
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2253, 
+        "genotypeName": "B",
+        "start": 2253,
         "end": 2678
       }
     ]
-  }, 
+  },
   "X59": {
-    "name": "X59", 
-    "displayName": "CRF59_01B", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X59",
+    "displayName": "CRF59_01B",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X01", 
-        "start": 2253, 
+        "genotypeName": "X01",
+        "start": 2253,
         "end": 2570
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2571, 
+        "genotypeName": "B",
+        "start": 2571,
         "end": 2719
-      }, 
+      },
       {
-        "genotypeName": "X01", 
-        "start": 2720, 
+        "genotypeName": "X01",
+        "start": 2720,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X60": {
-    "name": "X60", 
-    "displayName": "CRF60_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X60",
+    "displayName": "CRF60_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 3039, 
+        "genotypeName": "C",
+        "start": 3039,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2804, 
+        "genotypeName": "B",
+        "start": 2804,
         "end": 3038
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 2804
       }
     ]
-  }, 
+  },
   "X61": {
-    "name": "X61", 
-    "displayName": "CRF61_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X61",
+    "displayName": "CRF61_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 2182
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2182, 
+        "genotypeName": "B",
+        "start": 2182,
         "end": 3180
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 3180, 
+        "genotypeName": "C",
+        "start": 3180,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X62": {
-    "name": "X62", 
-    "displayName": "CRF62_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X62",
+    "displayName": "CRF62_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 3.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 3220, 
+        "genotypeName": "C",
+        "start": 3220,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2622, 
+        "genotypeName": "B",
+        "start": 2622,
         "end": 3220
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 2621
       }
     ]
-  }, 
+  },
   "X63": {
-    "name": "X63", 
-    "displayName": "CRF63_02A1", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X63",
+    "displayName": "CRF63_02A1",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "X02", 
-        "start": 2253, 
+        "genotypeName": "X02",
+        "start": 2253,
         "end": 3222
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 3222, 
+        "genotypeName": "A",
+        "start": 3222,
         "end": 4031
-      }, 
+      },
       {
-        "genotypeName": "X02", 
-        "start": 4031, 
+        "genotypeName": "X02",
+        "start": 4031,
         "end": 4499
-      }, 
+      },
       {
-        "genotypeName": "A", 
-        "start": 4500, 
+        "genotypeName": "A",
+        "start": 4500,
         "end": 5094
       }
     ]
-  }, 
+  },
   "X64": {
-    "name": "X64", 
-    "displayName": "CRF64_BC", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X64",
+    "displayName": "CRF64_BC",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 4872, 
+        "genotypeName": "C",
+        "start": 4872,
         "end": 5094
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 4622, 
+        "genotypeName": "B",
+        "start": 4622,
         "end": 4871
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 2562, 
+        "genotypeName": "C",
+        "start": 2562,
         "end": 4621
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 2371, 
+        "genotypeName": "B",
+        "start": 2371,
         "end": 2561
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 2371
       }
     ]
-  }, 
+  },
   "X65": {
-    "name": "X65", 
-    "displayName": "CRF65_cpx", 
-    "canonicalName": null, 
-    "isSimpleCRF": true, 
-    "classificationLevel": "SUBTYPE", 
-    "distanceTolerance": 4.0, 
+    "name": "X65",
+    "displayName": "CRF65_cpx",
+    "canonicalName": null,
+    "isSimpleCRF": true,
+    "classificationLevel": "SUBTYPE",
+    "distanceTolerance": 2.0,
     "regions": [
       {
-        "genotypeName": "C", 
-        "start": 2253, 
+        "genotypeName": "C",
+        "start": 2253,
         "end": 3781
-      }, 
+      },
       {
-        "genotypeName": "B", 
-        "start": 3782, 
+        "genotypeName": "B",
+        "start": 3782,
         "end": 4065
-      }, 
+      },
       {
-        "genotypeName": "C", 
-        "start": 4065, 
+        "genotypeName": "C",
+        "start": 4065,
         "end": 5094
       }
     ]

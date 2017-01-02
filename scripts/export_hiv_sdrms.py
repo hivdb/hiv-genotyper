@@ -25,8 +25,8 @@ def iter_query(sql, *args):
 def export_sdrms():
     sql = "SELECT * FROM tblSDRMs"
     results = OrderedDict()
-    backward_table = {}
-    for codon, aa in standard_dna_table.forward_table.items():
+    backward_table = OrderedDict()
+    for codon, aa in sorted(standard_dna_table.forward_table.items()):
         backward_table.setdefault(aa, []).append(codon)
     for row in iter_query(sql):
         for aa in row['AAs']:
