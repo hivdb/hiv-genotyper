@@ -72,11 +72,10 @@ def export_genotypes():
         result = OrderedDict([
             ('name', name),
             ('displayName', row['Synonym']),
-            ('canonicalName',
-             row['Main'] if row['SubSubtype'] == 'T' else None),
+            ('canonicalName', row['Parent']),
             ('isSimpleCRF', row['SimpleCRF'] == 'T'),
             ('classificationLevel', level),
-            ('distanceTolerance', float(row['DistanceCutoff'])),
+            ('distanceTolerance', float(row['DistanceCutoff']) / 100),
             ('regions', regions)])
         results[name] = result
 

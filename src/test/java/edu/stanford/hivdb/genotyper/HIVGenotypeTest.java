@@ -11,35 +11,34 @@ public class HIVGenotypeTest {
 		Genotype typeB = HIVGenotype.getInstance("B");
 		assertEquals(typeB, HIVGenotype.getInstance("B"));
 	}
-	
+
 	@Test
 	public void testGetNames() {
 		Genotype typeX01 = HIVGenotype.getInstance("X01");
 		assertEquals("X01", typeX01.getIndexName());
 		assertEquals("CRF01_AE", typeX01.getDisplayName());
 	}
-	
+
 	@Test
 	public void testGetCanonicalGenotype() {
-		Genotype typeX01 = HIVGenotype.getInstance("X01");
-		assertEquals(typeX01, typeX01.getCanonicalGenotype());
-		Genotype typeA_FSU = HIVGenotype.getInstance("A_FSU");
 		Genotype typeA = HIVGenotype.getInstance("A");
-		assertEquals(typeA, typeA_FSU.getCanonicalGenotype());
+		Genotype typeX01 = HIVGenotype.getInstance("X01");
+		assertEquals(typeA, typeX01.getCanonicalGenotypes().get(0));
+		Genotype typeA_FSU = HIVGenotype.getInstance("A_FSU");
+		assertEquals(typeA, typeA_FSU.getCanonicalGenotypes().get(0));
 	}
-	
+
 	@Test
 	public void testGetRegionalGenotype() {
 		Genotype typeX51 = HIVGenotype.getInstance("X51");
 		Genotype typeB = HIVGenotype.getInstance("B");
-		Genotype typeX01 = HIVGenotype.getInstance("X01");
-		assertEquals(typeB, typeX51.getRegionalGenotype(2263, 4100));
-		assertEquals(typeB, typeX51.getRegionalGenotype(2213, 4320));
-		assertEquals(typeX01, typeX51.getRegionalGenotype(4266, 5120));
-		assertEquals(typeX51, typeX51.getRegionalGenotype(2255, 4400));
+		assertEquals("B (100%)", typeX51.getPrimaryRegionalGenotype(2263, 4100).toString());
+		assertEquals("B (97.2%)", typeX51.getPrimaryRegionalGenotype(2213, 4320).toString());
+		assertEquals("CRF01_AE (92.9%)", typeX51.getPrimaryRegionalGenotype(4266, 5120).toString());
+		assertEquals("B (95.4%)", typeX51.getPrimaryRegionalGenotype(2255, 4400).toString());
 		Genotype typeX04 = HIVGenotype.getInstance("X04");
-		assertEquals(typeX04, typeX04.getRegionalGenotype(2263, 3600));
-		assertEquals(typeB, typeB.getRegionalGenotype(2333, 4555));
+		assertEquals("CRF04_cpx (100%)", typeX04.getPrimaryRegionalGenotype(2263, 3600).toString());
+		assertEquals("B (100%)", typeB.getPrimaryRegionalGenotype(2333, 4555).toString());
 	}
 
 }

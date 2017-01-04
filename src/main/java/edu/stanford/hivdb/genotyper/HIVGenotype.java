@@ -1,10 +1,15 @@
 package edu.stanford.hivdb.genotyper;
 
 import java.util.Map;
+import java.util.stream.Collectors;
+
+import org.apache.commons.lang3.StringUtils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.io.BufferedReader;
@@ -14,7 +19,7 @@ import java.io.InputStreamReader;
 
 public class HIVGenotype implements Genotype {
 
-	private static int CRF_REGION_TOLERANCE_SIZE = 50;
+	private static final Double MIN_PRIMARY_REGIONAL_GENOTYPE_PROPORTION = 0.9; // 90%
 	private static Map<String, HIVGenotype> genotypes = new LinkedHashMap<>();
 	private String name;
 	private Boolean isSimpleCRF;
@@ -44,6 +49,11 @@ public class HIVGenotype implements Genotype {
 	}
 
 	@Override
+	public Double getMinPrimaryRegionalGenotypeProportion() {
+		return MIN_PRIMARY_REGIONAL_GENOTYPE_PROPORTION;
+	}
+
+	@Override
 	public String getIndexName() {
 		return name;
 	}
@@ -54,46 +64,63 @@ public class HIVGenotype implements Genotype {
 	}
 
 	@Override
-	public HIVGenotype getCanonicalGenotype() {
-		if (classificationLevel ==
-				HIVClassificationLevel.SUBSUBTYPE) {
-			return genotypes.get(canonicalName);
+	public List<Genotype> getCanonicalGenotypes() {
+		if (canonicalName != null) {
+			return Arrays
+				.stream(StringUtils.split(canonicalName, '|'))
+				.map(n -> genotypes.get(n))
+				.collect(Collectors.toList());
 		}
 		else {
-			return this;
+			List<Genotype> canonicals = new ArrayList<>();
+			canonicals.add(this);
+			return canonicals;
 		}
 	}
 
 	@Override
 	public Boolean checkDistance(double distance) {
-		return distance < this.distanceTolerance;
+		return distance < distanceTolerance;
 	}
 
 	@Override
-	public HIVGenotype getRegionalGenotype(int firstNA, int lastNA) {
+	public List<RegionalGenotype> getRegionalGenotypes(int firstNA, int lastNA) {
+		Map<Genotype, Double> mapResults = new LinkedHashMap<>();
+		double length = lastNA - firstNA;
 		if (isSimpleCRF) {
-			int tolerance = CRF_REGION_TOLERANCE_SIZE;
 			for (CRFRegion region : regions) {
-				if (firstNA >= region.start - tolerance &&
-						lastNA <= region.end + tolerance) {
-					return genotypes.get(region.genotypeName);
+				if (lastNA >= region.start && firstNA <= region.end) {
+					// intersected
+					int start = firstNA > region.start ? firstNA : region.start;
+					int end = lastNA < region.end ? lastNA : region.end;
+					Genotype genotype = genotypes.get(region.genotypeName);
+					double proportion = mapResults.getOrDefault(genotype, 0.0);
+					proportion += (end - start) / length;
+					mapResults.put(genotype, proportion);
 				}
 			}
-			return this;
 		}
 		else {
-			return this;
+			mapResults.put(this, 1.0);
 		}
+		return mapResults
+			.entrySet().stream()
+			.map(e -> new RegionalGenotype(e.getKey(), e.getValue()))
+			.collect(Collectors.toList());
 	}
-	
+
 	@Override
-	public Boolean isSubSubtype() {
-		return this.classificationLevel == HIVClassificationLevel.SUBSUBTYPE;
+	public Boolean isRecombination() {
+		return name.startsWith("X");
 	}
-	
+
 	@Override
 	public String toString() {
 		return getDisplayName();
+	}
+
+	public HIVClassificationLevel getClassificationLevel() {
+		return classificationLevel;
 	}
 
 }

@@ -18,7 +18,7 @@ public class HIVGenotypeReferenceTest {
 		assertEquals("JN029801", primary.getReference().getAccession());
 		assertEquals(66.0 / 2841, primary.getDistance(), 1e-10);
 		assertEquals("B", results.get(1).getGenotype().getIndexName());
-		
+
 		// test boundary cases
 		StringBuffer buf = new StringBuffer(seqX51.sequence);
 		buf.setCharAt(0, 'A');
@@ -27,7 +27,7 @@ public class HIVGenotypeReferenceTest {
 			buf.toString(), seqX51.firstNA, seqX51.lastNA);
 		assertEquals(68.0 / 2841,results.get(0).getDistance(), 1e-10);
 	}
-	
+
 	@Test
 	public void testGetDisplayGenotype() {
 		TestSequence seqX51 = TestSequence.loadResource("X51_no_integrase.json");
@@ -35,14 +35,14 @@ public class HIVGenotypeReferenceTest {
 			seqX51.sequence, seqX51.firstNA, seqX51.lastNA);
 		BoundGenotype primary = results.get(0);
 		assertEquals("X51", primary.getGenotype().getIndexName());
-		assertEquals("B", primary.getDisplayGenotype().getIndexName());
+		assertEquals("B", primary.getDisplayWithoutDistance());
 
 		seqX51 = TestSequence.loadResource("X51_full.json");
 		results = HIVGenotypeReference.compareAll(
 			seqX51.sequence, seqX51.firstNA, seqX51.lastNA);
 		primary = results.get(0);
 		assertEquals("X51", primary.getGenotype().getIndexName());
-		assertEquals("X51", primary.getDisplayGenotype().getIndexName());
+		assertEquals("CRF51_01B", primary.getDisplayWithoutDistance());
 	}
 
 	@Test

@@ -12,7 +12,7 @@ public class TestSequence {
 	public int firstNA;
 	public int lastNA;
 	public String accession;
-	
+
 	public static TestSequence loadResource(String fileName) {
 		InputStream json = (
 			TestSequence.class.getClassLoader()
@@ -21,5 +21,5 @@ public class TestSequence {
 				new BufferedReader(new InputStreamReader(json)),
 			    TestSequence.class);
 	}
-	
+
 }
