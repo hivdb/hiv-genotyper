@@ -27,15 +27,15 @@ public class BoundGenotypeTest {
 		for (SequenceWithExpectedGenotype eseq : lots) {
 			TestSequence seq = eseq.testSequence;
 			if (seq.accession.equals("AB356209")) {
-				List<BoundGenotype> results = HIVGenotypeReference.compareAll(
+				HIVGenotypeResult result = HIVGenotypeReference.compareAll(
 					seq.sequence, seq.firstNA, seq.lastNA);
-				BoundGenotype primary = results.get(0);
+				BoundGenotype primary = result.getFirstMatch();
 				assertEquals("B + F (3.88%)", primary.getDisplay());
 			}
 			else if (seq.accession.equals("DQ345008-DQ345037")) {
-				List<BoundGenotype> results = HIVGenotypeReference.compareAll(
+				HIVGenotypeResult result = HIVGenotypeReference.compareAll(
 					seq.sequence, seq.firstNA, seq.lastNA);
-				BoundGenotype primary = results.get(0);
+				BoundGenotype primary = result.getFirstMatch();
 				assertEquals("CRF01_AE (6.11%)", primary.getDisplay());
 			}
 		}

@@ -206,10 +206,9 @@ public class BoundGenotype {
 		return getGenotype().getCanonicalGenotypes();
 	}
 
-	public Boolean shouldFallbackToSecondary(BoundGenotype secondary) {
+	public Boolean shouldFallbackTo(BoundGenotype fallback) {
 		if (checkDistance() ||
-				secondary.getGenotype().isRecombination() ||
-				secondary.getDistance() - getDistance() >
+				fallback.getDistance() - getDistance() >
 				MAX_FALLBACK_TO_SECONDARY_DISTANCE_DIFF) {
 
 			return false;

@@ -111,7 +111,7 @@ public class HIVGenotype implements Genotype {
 
 	@Override
 	public Boolean isRecombination() {
-		return name.startsWith("X");
+		return name.startsWith("X") && !name.equals("X01");
 	}
 
 	@Override

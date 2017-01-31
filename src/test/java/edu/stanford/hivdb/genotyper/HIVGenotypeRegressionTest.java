@@ -55,15 +55,11 @@ public class HIVGenotypeRegressionTest {
 			if (skippedSequences.contains(seq.accession)) {
 				continue;
 			}
-			List<BoundGenotype> results = HIVGenotypeReference.compareAll(
+			HIVGenotypeResult result = HIVGenotypeReference.compareAll(
 				seq.sequence, seq.firstNA, seq.lastNA);
-			BoundGenotype primary = results.get(0);
-			BoundGenotype secondary = results.stream()
-				.filter(bg -> bg.getGenotype() != primary.getGenotype())
-				.findFirst().get();
-			BoundGenotype useGeno = (
-				primary.shouldFallbackToSecondary(secondary) ?
-				secondary : primary);
+			BoundGenotype primary = result.getFirstMatch();
+			BoundGenotype secondary = result.getFallbackMatch();
+			BoundGenotype useGeno = result.getBestMatch();
 			String expectedGenotype = one.getExpectedGenotype().getDisplayName();
 			//StringBuffer errMsg = new StringBuffer();
 			//// errMsg.append("Wrong genotype for sequence <");

@@ -40,13 +40,12 @@ public class HIVGenotypeReference implements GenotypeReference {
 
 	}
 
-	public static List<BoundGenotype> compareAll(String sequence, int firstNA, int lastNA) {
+	public static HIVGenotypeResult compareAll(String sequence, int firstNA, int lastNA) {
 		List<BoundGenotype> results = new ArrayList<>();
 		for (HIVGenotypeReference ref : references) {
 			results.add(ref.compare(sequence, firstNA, lastNA));
 		}
-		results.sort((r1, r2) -> r1.getDistance().compareTo(r2.getDistance()));
-		return results;
+		return new HIVGenotypeResult(results);
 	}
 
 	@Override
