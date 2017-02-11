@@ -71,9 +71,9 @@ public interface Genotype {
 
 	/** check distance
 	 *
-	 * Accepts a double value of the distance between testing
+	 * Accepts a double value of the distance between submitted
 	 * sequence and the reference. Returns false when distance
-	 * is too large for this genotype.
+	 * is too high for this genotype.
 	 *
 	 * @param distance
 	 * @return Boolean
@@ -92,21 +92,24 @@ public interface Genotype {
 	 */
 	public String getDisplayName();
 
-	/** get canonical genotype
+	/** get parent genotypes
 	 *
-	 * Sometime the current genotype is an alias or sub-subtype
-	 * of another genotype. This function returns the canonical
-	 * genotype if it exists. Else it should return the current
-	 * genotype.
+	 * Sub-subtype and Some CRF belong to one or more parent
+	 * genotypes. Sometime when the distance between the
+	 * submitted and reference sequence was too high to report
+	 * the original genotype itself, the parent genotypes were
+	 * reported instead. This method returns these parent
+	 * genotypes if them exist. Otherwise, a null pointer should
+	 * be returned.
 	 *
 	 * @return List of Genotype object
 	 */
-	public List<Genotype> getCanonicalGenotypes();
+	public List<Genotype> getParentGenotypes();
 
 	/** get if the current genotype is treated as a recombination form
 	 *
 	 * @return boolean
 	 */
-	public Boolean isRecombination();
+	public Boolean hasParentGenotypes();
 
 }

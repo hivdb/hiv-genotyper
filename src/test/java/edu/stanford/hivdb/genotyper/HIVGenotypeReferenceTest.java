@@ -44,6 +44,16 @@ public class HIVGenotypeReferenceTest {
 	}
 
 	@Test
+	public void testRegionOfUnknown() {
+		TestSequence seqX10 = TestSequence.loadResource("X10_U_region.json");
+		HIVGenotypeResult result = HIVGenotypeReference.compareAll(
+			seqX10.sequence, seqX10.firstNA, seqX10.lastNA);
+		BoundGenotype best = result.getBestMatch();
+		assertEquals("Unknown", best.getDisplayWithoutDistance());
+		assertEquals("Unknown", best.getDisplay());
+	}
+
+	@Test
 	public void testSDRMs() {
 		TestSequence seqB = TestSequence.loadResource("B_SDRMs.json");
 		HIVGenotypeResult result = HIVGenotypeReference.compareAll(

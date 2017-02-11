@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 from __future__ import print_function
 
+import sys
 import json
 from collections import OrderedDict
 
@@ -35,10 +36,15 @@ def export_test_sequences():
             ]))
         ])
         results.append(result)
-
-    with open(TARGET, 'w') as fp:
-        json.dump(results, fp, indent=2)
+    return results
 
 
 if __name__ == '__main__':
-    export_test_sequences()
+    results = export_test_sequences()
+    if len(sys.argv) > 1 and sys.argv[1] == 'fasta':
+        for seq in results:
+            print('>{}'.format(seq['testSequence']['accession']))
+            print(seq['testSequence']['sequence'])
+    else:
+        with open(TARGET, 'w') as fp:
+            json.dump(results, fp, indent=2)

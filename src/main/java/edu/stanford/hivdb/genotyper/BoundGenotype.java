@@ -111,19 +111,25 @@ public class BoundGenotype {
 		return pcnt.toPlainString() + "%";
 	}
 
-	/** get canonical / regional genotype
+	/** get parent / regional genotype(s)
 	 *
 	 * @return List of Genotype object
 	 */
 	public List<Genotype> getDisplayGenotypes() {
-		Genotype origGenotype = getGenotype();
-		Genotype regionalGenotype = getPrimaryRegionalGenotype().getGenotype();
-		if (!checkDistance() && regionalGenotype == origGenotype) {
-			// distance is too far and no regional Genotype found
-			return origGenotype.getCanonicalGenotypes();
-		}
 		List<Genotype> displayGenotypes = new ArrayList<>();
-		displayGenotypes.add(regionalGenotype);
+		if (shouldDisplayUnknown()) {
+			displayGenotypes.add(HIVGenotype.getInstance("U"));
+		}
+		else {
+			Genotype origGenotype = getGenotype();
+			Genotype regionalGenotype = getPrimaryRegionalGenotype().getGenotype();
+			if (!checkDistance() && regionalGenotype == origGenotype &&
+					origGenotype.hasParentGenotypes()) {
+				// distance is too far and no regional Genotype found
+				return origGenotype.getParentGenotypes();
+			}
+			displayGenotypes.add(regionalGenotype);
+		}
 		return displayGenotypes;
 	}
 
@@ -153,9 +159,11 @@ public class BoundGenotype {
 	public String getDisplay() {
 		StringBuffer buf = new StringBuffer();
 		buf.append(getDisplayWithoutDistance());
-		buf.append(" (");
-		buf.append(getDistancePcnt());
-		buf.append(")");
+		if (!buf.toString().equals("Unknown")) {
+			buf.append(" (");
+			buf.append(getDistancePcnt());
+			buf.append(")");
+		}
 		return buf.toString();
 	}
 
@@ -202,8 +210,20 @@ public class BoundGenotype {
 		return getGenotype().checkDistance(getDistance());
 	}
 
-	public List<Genotype> getCanonicalGenotypes() {
-		return getGenotype().getCanonicalGenotypes();
+	/** check if "Unknown" should be reported
+	 *
+	 * A universal distance cut-off (11%) is applied to all
+	 * genotypes. The 11% cut-off percent was estimated by
+	 * analyzing the overall distances of ~11,000 sequences.
+	 *
+	 * @return Boolean
+	 */
+	public Boolean shouldDisplayUnknown() {
+		return getDistance() > 0.11;
+	}
+
+	public List<Genotype> getParentGenotypes() {
+		return getGenotype().getParentGenotypes();
 	}
 
 	public Boolean shouldFallbackTo(BoundGenotype fallback) {

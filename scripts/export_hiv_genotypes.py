@@ -62,22 +62,40 @@ def export_genotypes():
             level = 'GROUP'
         elif name == 'HIV2':
             level = 'SPECIES'
+        elif name.startswith('X'):
+            level = 'CRF'
         elif row['SubSubtype'] == 'T':
             level = 'SUBSUBTYPE'
-        regions = ([OrderedDict([
-            ('genotypeName', r['Subtype']),
-            ('start', r['Start']),
-            ('end', r['End'])
-        ]) for r in breakpoints[name]] if name in breakpoints else None)
+        is_simple_crf = row['SimpleCRF'] == 'T'
+        regions = (
+            [OrderedDict([
+                ('genotypeName', r['Subtype']),
+                ('start', r['Start']),
+                ('end', r['End'])
+            ]) for r in breakpoints[name]]
+            if is_simple_crf and name in breakpoints
+            else None)
+        parent = row['Parent']
         result = OrderedDict([
             ('name', name),
             ('displayName', row['Synonym']),
-            ('canonicalName', row['Parent']),
-            ('isSimpleCRF', row['SimpleCRF'] == 'T'),
+            ('parentGenotypes', None if name == parent else parent),
+            ('isSimpleCRF', is_simple_crf),
             ('classificationLevel', level),
-            ('distanceTolerance', float(row['DistanceCutoff']) / 100),
+            ('distanceUpperLimit', float(row['DistanceCutoff']) / 100),
             ('regions', regions)])
         results[name] = result
+
+    # add "unknown" genotype
+    results['U'] = OrderedDict([
+        ('name', 'U'),
+        ('displayName', 'Unknown'),
+        ('parentGenotypes', None),
+        ('isSimpleCRF', False),
+        ('classificationLevel', None),
+        ('distanceUpperLimit', .0),
+        ('regions', None)
+    ])
 
     with open(TARGET, 'w') as fp:
         json.dump(results, fp, indent=2)

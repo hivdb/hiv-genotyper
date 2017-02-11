@@ -8,7 +8,6 @@ import org.apache.commons.lang3.StringUtils;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -24,9 +23,9 @@ public class HIVGenotype implements Genotype {
 	private String name;
 	private Boolean isSimpleCRF;
 	private String displayName;
-	private String canonicalName;
+	private String parentGenotypes;
 	private HIVClassificationLevel classificationLevel;
-	private Double distanceTolerance;
+	private Double distanceUpperLimit;
 	private List<CRFRegion> regions;
 
 	private static class CRFRegion {
@@ -64,23 +63,21 @@ public class HIVGenotype implements Genotype {
 	}
 
 	@Override
-	public List<Genotype> getCanonicalGenotypes() {
-		if (canonicalName != null) {
+	public List<Genotype> getParentGenotypes() {
+		if (parentGenotypes != null) {
 			return Arrays
-				.stream(StringUtils.split(canonicalName, '|'))
+				.stream(StringUtils.split(parentGenotypes, '|'))
 				.map(n -> genotypes.get(n))
 				.collect(Collectors.toList());
 		}
 		else {
-			List<Genotype> canonicals = new ArrayList<>();
-			canonicals.add(this);
-			return canonicals;
+			return null;
 		}
 	}
 
 	@Override
 	public Boolean checkDistance(double distance) {
-		return distance < distanceTolerance;
+		return distance < distanceUpperLimit;
 	}
 
 	@Override
@@ -110,8 +107,8 @@ public class HIVGenotype implements Genotype {
 	}
 
 	@Override
-	public Boolean isRecombination() {
-		return name.startsWith("X") && !name.equals("X01");
+	public Boolean hasParentGenotypes() {
+		return parentGenotypes != null;
 	}
 
 	@Override

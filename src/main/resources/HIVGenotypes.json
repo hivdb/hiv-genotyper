@@ -2,172 +2,172 @@
   "A": {
     "name": "A",
     "displayName": "A",
-    "canonicalName": "A",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "A2": {
     "name": "A2",
     "displayName": "A2",
-    "canonicalName": "A2",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
+    "distanceUpperLimit": 0.06,
     "regions": null
   },
   "A_FSU": {
     "name": "A_FSU",
     "displayName": "A (A_FSU)",
-    "canonicalName": "A",
+    "parentGenotypes": "A",
     "isSimpleCRF": false,
     "classificationLevel": "SUBSUBTYPE",
-    "distanceTolerance": 0.04,
+    "distanceUpperLimit": 0.04,
     "regions": null
   },
   "B": {
     "name": "B",
     "displayName": "B",
-    "canonicalName": "B",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "C": {
     "name": "C",
     "displayName": "C",
-    "canonicalName": "C",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "D": {
     "name": "D",
     "displayName": "D",
-    "canonicalName": "D",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "F": {
     "name": "F",
     "displayName": "F",
-    "canonicalName": "F",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "F2": {
     "name": "F2",
     "displayName": "F2",
-    "canonicalName": "F2",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
+    "distanceUpperLimit": 0.06,
     "regions": null
   },
   "G": {
     "name": "G",
     "displayName": "G",
-    "canonicalName": "G",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "H": {
     "name": "H",
     "displayName": "H",
-    "canonicalName": "H",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "HIV2": {
     "name": "HIV2",
     "displayName": "HIV2",
-    "canonicalName": "HIV2",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SPECIES",
-    "distanceTolerance": 0.25,
+    "distanceUpperLimit": 0.25,
     "regions": null
   },
   "J": {
     "name": "J",
     "displayName": "J",
-    "canonicalName": "J",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
+    "distanceUpperLimit": 0.06,
     "regions": null
   },
   "K": {
     "name": "K",
     "displayName": "K",
-    "canonicalName": "K",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
+    "distanceUpperLimit": 0.06,
     "regions": null
   },
   "N": {
     "name": "N",
     "displayName": "Group N",
-    "canonicalName": "N",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "GROUP",
-    "distanceTolerance": 0.15,
+    "distanceUpperLimit": 0.15,
     "regions": null
   },
   "O": {
     "name": "O",
     "displayName": "Group O",
-    "canonicalName": "O",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "GROUP",
-    "distanceTolerance": 0.15,
+    "distanceUpperLimit": 0.15,
     "regions": null
   },
   "P": {
     "name": "P",
     "displayName": "Group P",
-    "canonicalName": "P",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "GROUP",
-    "distanceTolerance": 0.15,
+    "distanceUpperLimit": 0.15,
     "regions": null
   },
   "X01": {
     "name": "X01",
     "displayName": "CRF01_AE",
-    "canonicalName": "A",
+    "parentGenotypes": "A",
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.05,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.05,
     "regions": null
   },
   "X02": {
     "name": "X02",
     "displayName": "CRF02_AG",
-    "canonicalName": "A|G",
+    "parentGenotypes": "A|G",
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.07,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.07,
     "regions": null
   },
   "X03": {
     "name": "X03",
     "displayName": "CRF03_AB",
-    "canonicalName": "A|B",
+    "parentGenotypes": "A|B",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "A",
@@ -184,85 +184,37 @@
   "X04": {
     "name": "X04",
     "displayName": "CRF04_cpx",
-    "canonicalName": "X04",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
-    "regions": [
-      {
-        "genotypeName": "K",
-        "start": 2253,
-        "end": 3717
-      },
-      {
-        "genotypeName": "U",
-        "start": 3717,
-        "end": 4415
-      },
-      {
-        "genotypeName": "G",
-        "start": 4415,
-        "end": 4937
-      },
-      {
-        "genotypeName": "A",
-        "start": 4937,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.06,
+    "regions": null
   },
   "X05": {
     "name": "X05",
     "displayName": "CRF05_DF",
-    "canonicalName": "X05",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
-    "regions": [
-      {
-        "genotypeName": "U",
-        "start": 3750,
-        "end": 5190
-      },
-      {
-        "genotypeName": "D",
-        "start": 3396,
-        "end": 3750
-      },
-      {
-        "genotypeName": "F",
-        "start": 2845,
-        "end": 3396
-      },
-      {
-        "genotypeName": "D",
-        "start": 2253,
-        "end": 2845
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.06,
+    "regions": null
   },
   "X06": {
     "name": "X06",
     "displayName": "CRF06_cpx",
-    "canonicalName": "X06",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
-    "regions": [
-      {
-        "genotypeName": "X06",
-        "start": 2253,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.06,
+    "regions": null
   },
   "X07": {
     "name": "X07",
     "displayName": "CRF07_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "C",
@@ -289,10 +241,10 @@
   "X08": {
     "name": "X08",
     "displayName": "CRF08_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "C",
@@ -314,25 +266,19 @@
   "X09": {
     "name": "X09",
     "displayName": "CRF09_cpx",
-    "canonicalName": "X09",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
-    "regions": [
-      {
-        "genotypeName": "X09",
-        "start": 2253,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.06,
+    "regions": null
   },
   "X10": {
     "name": "X10",
     "displayName": "CRF10_CD",
-    "canonicalName": "C|D",
+    "parentGenotypes": "C|D",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.05,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.05,
     "regions": [
       {
         "genotypeName": "U",
@@ -364,40 +310,19 @@
   "X11": {
     "name": "X11",
     "displayName": "CRF11_cpx",
-    "canonicalName": "X11",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.06,
-    "regions": [
-      {
-        "genotypeName": "U",
-        "start": 3090,
-        "end": 3489
-      },
-      {
-        "genotypeName": "J",
-        "start": 3490,
-        "end": 4039
-      },
-      {
-        "genotypeName": "J",
-        "start": 2253,
-        "end": 3089
-      },
-      {
-        "genotypeName": "A",
-        "start": 4040,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.06,
+    "regions": null
   },
   "X12": {
     "name": "X12",
     "displayName": "CRF12_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
     "regions": [
       {
         "genotypeName": "B",
@@ -429,40 +354,19 @@
   "X13": {
     "name": "X13",
     "displayName": "CRF13_cpx",
-    "canonicalName": "X13",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.05,
-    "regions": [
-      {
-        "genotypeName": "G",
-        "start": 2253,
-        "end": 2372
-      },
-      {
-        "genotypeName": "J",
-        "start": 2373,
-        "end": 3140
-      },
-      {
-        "genotypeName": "G",
-        "start": 3141,
-        "end": 5008
-      },
-      {
-        "genotypeName": "J",
-        "start": 5008,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.05,
+    "regions": null
   },
   "X14": {
     "name": "X14",
     "displayName": "CRF14_BG",
-    "canonicalName": "G",
+    "parentGenotypes": "G",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "G",
@@ -474,10 +378,10 @@
   "X15": {
     "name": "X15",
     "displayName": "CRF15_01B",
-    "canonicalName": "X01",
+    "parentGenotypes": "X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X01",
@@ -489,10 +393,10 @@
   "X16": {
     "name": "X16",
     "displayName": "CRF16_A2D",
-    "canonicalName": "A2",
+    "parentGenotypes": "A2",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "A2",
@@ -514,10 +418,10 @@
   "X17": {
     "name": "X17",
     "displayName": "CRF17_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "F",
@@ -539,25 +443,19 @@
   "X18": {
     "name": "X18",
     "displayName": "CRF18_cpx",
-    "canonicalName": "X18",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
-    "regions": [
-      {
-        "genotypeName": "X18",
-        "start": 2253,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
+    "regions": null
   },
   "X19": {
     "name": "X19",
     "displayName": "CRF19_cpx",
-    "canonicalName": "D",
+    "parentGenotypes": "D",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
     "regions": [
       {
         "genotypeName": "A",
@@ -579,10 +477,10 @@
   "X20": {
     "name": "X20",
     "displayName": "CRF20_BG",
-    "canonicalName": "B|G",
+    "parentGenotypes": "B|G",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "G",
@@ -624,10 +522,10 @@
   "X21": {
     "name": "X21",
     "displayName": "CRF21_A2D",
-    "canonicalName": "A2|D",
+    "parentGenotypes": "A2|D",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "D",
@@ -644,10 +542,10 @@
   "X22": {
     "name": "X22",
     "displayName": "CRF22_01A1",
-    "canonicalName": "A",
+    "parentGenotypes": "A",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "X01",
@@ -664,10 +562,10 @@
   "X23": {
     "name": "X23",
     "displayName": "CRF23_BG",
-    "canonicalName": "B|G",
+    "parentGenotypes": "B|G",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "B",
@@ -699,10 +597,10 @@
   "X24": {
     "name": "X24",
     "displayName": "CRF24_BG",
-    "canonicalName": "B|G",
+    "parentGenotypes": "B|G",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "G",
@@ -744,40 +642,19 @@
   "X25": {
     "name": "X25",
     "displayName": "CRF25_cpx",
-    "canonicalName": "X25",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.05,
-    "regions": [
-      {
-        "genotypeName": "G",
-        "start": 2253,
-        "end": 3127
-      },
-      {
-        "genotypeName": "U",
-        "start": 3127,
-        "end": 3690
-      },
-      {
-        "genotypeName": "A",
-        "start": 3691,
-        "end": 4002
-      },
-      {
-        "genotypeName": "G",
-        "start": 4003,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.05,
+    "regions": null
   },
   "X26": {
     "name": "X26",
     "displayName": "CRF26_AU",
-    "canonicalName": "A",
+    "parentGenotypes": "A",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "A",
@@ -809,40 +686,19 @@
   "X27": {
     "name": "X27",
     "displayName": "CRF27_cpx",
-    "canonicalName": "X27",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
-    "regions": [
-      {
-        "genotypeName": "H",
-        "start": 2253,
-        "end": 2699
-      },
-      {
-        "genotypeName": "J",
-        "start": 2700,
-        "end": 3987
-      },
-      {
-        "genotypeName": "G",
-        "start": 3988,
-        "end": 4899
-      },
-      {
-        "genotypeName": "J",
-        "start": 4900,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
+    "regions": null
   },
   "X28": {
     "name": "X28",
     "displayName": "CRF28_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "B",
@@ -859,10 +715,10 @@
   "X29": {
     "name": "X29",
     "displayName": "CRF29_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
     "regions": [
       {
         "genotypeName": "F",
@@ -884,30 +740,19 @@
   "X30": {
     "name": "X30",
     "displayName": "CRF30_A206",
-    "canonicalName": "X30",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
-    "regions": [
-      {
-        "genotypeName": "X02",
-        "start": 2253,
-        "end": 4750
-      },
-      {
-        "genotypeName": "X06",
-        "start": 4750,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
+    "regions": null
   },
   "X31": {
     "name": "X31",
     "displayName": "CRF31_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "C",
@@ -929,10 +774,10 @@
   "X32": {
     "name": "X32",
     "displayName": "CRF32_06A1",
-    "canonicalName": "X06",
+    "parentGenotypes": "X06",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X06",
@@ -944,10 +789,10 @@
   "X33": {
     "name": "X33",
     "displayName": "CRF33_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "B",
@@ -974,10 +819,10 @@
   "X34": {
     "name": "X34",
     "displayName": "CRF34_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X01",
@@ -994,10 +839,10 @@
   "X35": {
     "name": "X35",
     "displayName": "CRF35_AD",
-    "canonicalName": "A|D",
+    "parentGenotypes": "A|D",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
     "regions": [
       {
         "genotypeName": "A",
@@ -1034,10 +879,10 @@
   "X36": {
     "name": "X36",
     "displayName": "CRF36_cpx",
-    "canonicalName": "A|X02",
+    "parentGenotypes": "A|X02",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "G",
@@ -1064,10 +909,10 @@
   "X37": {
     "name": "X37",
     "displayName": "CRF37_cpx",
-    "canonicalName": "A|G",
+    "parentGenotypes": "A|G",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "A",
@@ -1089,10 +934,10 @@
   "X38": {
     "name": "X38",
     "displayName": "CRF38_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "F",
@@ -1114,10 +959,10 @@
   "X39": {
     "name": "X39",
     "displayName": "CRF39_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
     "regions": [
       {
         "genotypeName": "B",
@@ -1149,10 +994,10 @@
   "X40": {
     "name": "X40",
     "displayName": "CRF40_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "F",
@@ -1184,10 +1029,10 @@
   "X41": {
     "name": "X41",
     "displayName": "CRF41_CD",
-    "canonicalName": "D",
+    "parentGenotypes": "D",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "D",
@@ -1199,10 +1044,10 @@
   "X42": {
     "name": "X42",
     "displayName": "CRF42_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "B",
@@ -1219,10 +1064,10 @@
   "X43": {
     "name": "X43",
     "displayName": "CRF43_02G",
-    "canonicalName": "G|X02",
+    "parentGenotypes": "G|X02",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "G",
@@ -1239,10 +1084,10 @@
   "X44": {
     "name": "X44",
     "displayName": "CRF44_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "F",
@@ -1274,25 +1119,19 @@
   "X45": {
     "name": "X45",
     "displayName": "CRF45_cpx",
-    "canonicalName": "X45",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.05,
-    "regions": [
-      {
-        "genotypeName": "X45",
-        "start": 2253,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.05,
+    "regions": null
   },
   "X46": {
     "name": "X46",
     "displayName": "CRF46_BF",
-    "canonicalName": "F",
+    "parentGenotypes": "F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "F",
@@ -1304,10 +1143,10 @@
   "X47": {
     "name": "X47",
     "displayName": "CRF47_BF",
-    "canonicalName": "B|F",
+    "parentGenotypes": "B|F",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "F",
@@ -1349,10 +1188,10 @@
   "X48": {
     "name": "X48",
     "displayName": "CRF48_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "B",
@@ -1369,25 +1208,19 @@
   "X49": {
     "name": "X49",
     "displayName": "CRF49_cpx",
-    "canonicalName": "X49",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.04,
-    "regions": [
-      {
-        "genotypeName": "X49",
-        "start": 2253,
-        "end": 5094
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.04,
+    "regions": null
   },
   "X50": {
     "name": "X50",
     "displayName": "CRF50_A1D",
-    "canonicalName": "A|D",
+    "parentGenotypes": "A|D",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "D",
@@ -1404,10 +1237,10 @@
   "X51": {
     "name": "X51",
     "displayName": "CRF51_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "X01",
@@ -1424,10 +1257,10 @@
   "X52": {
     "name": "X52",
     "displayName": "CRF52_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X01",
@@ -1449,10 +1282,10 @@
   "X53": {
     "name": "X53",
     "displayName": "CRF53_01B",
-    "canonicalName": "X01",
+    "parentGenotypes": "X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X01",
@@ -1469,10 +1302,10 @@
   "X54": {
     "name": "X54",
     "displayName": "CRF54_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "B",
@@ -1494,10 +1327,10 @@
   "X55": {
     "name": "X55",
     "displayName": "CRF55_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "X01",
@@ -1529,55 +1362,19 @@
   "X56": {
     "name": "X56",
     "displayName": "CRF56_cpx",
-    "canonicalName": "X56",
+    "parentGenotypes": null,
     "isSimpleCRF": false,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
-    "regions": [
-      {
-        "genotypeName": "X02",
-        "start": 4812,
-        "end": 5094
-      },
-      {
-        "genotypeName": "B",
-        "start": 4430,
-        "end": 4812
-      },
-      {
-        "genotypeName": "X01",
-        "start": 3833,
-        "end": 4429
-      },
-      {
-        "genotypeName": "B",
-        "start": 3335,
-        "end": 3833
-      },
-      {
-        "genotypeName": "X02",
-        "start": 3205,
-        "end": 3334
-      },
-      {
-        "genotypeName": "B",
-        "start": 2704,
-        "end": 3204
-      },
-      {
-        "genotypeName": "X02",
-        "start": 2253,
-        "end": 2703
-      }
-    ]
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
+    "regions": null
   },
   "X57": {
     "name": "X57",
     "displayName": "CRF57_BC",
-    "canonicalName": "C",
+    "parentGenotypes": "C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "C",
@@ -1589,10 +1386,10 @@
   "X58": {
     "name": "X58",
     "displayName": "CRF58_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "X01",
@@ -1619,10 +1416,10 @@
   "X59": {
     "name": "X59",
     "displayName": "CRF59_01B",
-    "canonicalName": "B|X01",
+    "parentGenotypes": "B|X01",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X01",
@@ -1644,10 +1441,10 @@
   "X60": {
     "name": "X60",
     "displayName": "CRF60_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "C",
@@ -1669,10 +1466,10 @@
   "X61": {
     "name": "X61",
     "displayName": "CRF61_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "C",
@@ -1694,10 +1491,10 @@
   "X62": {
     "name": "X62",
     "displayName": "CRF62_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.03,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.03,
     "regions": [
       {
         "genotypeName": "C",
@@ -1719,10 +1516,10 @@
   "X63": {
     "name": "X63",
     "displayName": "CRF63_02A1",
-    "canonicalName": "A|X02",
+    "parentGenotypes": "A|X02",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "X02",
@@ -1749,10 +1546,10 @@
   "X64": {
     "name": "X64",
     "displayName": "CRF64_BC",
-    "canonicalName": "B|C",
+    "parentGenotypes": "B|C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "C",
@@ -1784,10 +1581,10 @@
   "X65": {
     "name": "X65",
     "displayName": "CRF65_cpx",
-    "canonicalName": "C",
+    "parentGenotypes": "C",
     "isSimpleCRF": true,
-    "classificationLevel": "SUBTYPE",
-    "distanceTolerance": 0.02,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
     "regions": [
       {
         "genotypeName": "C",
@@ -1805,5 +1602,14 @@
         "end": 5094
       }
     ]
+  },
+  "U": {
+    "name": "U",
+    "displayName": "Unknown",
+    "parentGenotypes": null,
+    "isSimpleCRF": false,
+    "classificationLevel": null,
+    "distanceUpperLimit": 0.0,
+    "regions": null
   }
 }

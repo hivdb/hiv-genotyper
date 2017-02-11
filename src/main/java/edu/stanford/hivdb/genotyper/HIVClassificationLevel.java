@@ -4,5 +4,6 @@ public enum HIVClassificationLevel {
 	SPECIES,
 	GROUP,
 	SUBTYPE,
+	CRF,
 	SUBSUBTYPE
 }

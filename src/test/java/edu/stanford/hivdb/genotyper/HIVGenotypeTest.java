@@ -23,9 +23,9 @@ public class HIVGenotypeTest {
 	public void testGetCanonicalGenotype() {
 		Genotype typeA = HIVGenotype.getInstance("A");
 		Genotype typeX01 = HIVGenotype.getInstance("X01");
-		assertEquals(typeA, typeX01.getCanonicalGenotypes().get(0));
+		assertEquals(typeA, typeX01.getParentGenotypes().get(0));
 		Genotype typeA_FSU = HIVGenotype.getInstance("A_FSU");
-		assertEquals(typeA, typeA_FSU.getCanonicalGenotypes().get(0));
+		assertEquals(typeA, typeA_FSU.getParentGenotypes().get(0));
 	}
 
 	@Test
