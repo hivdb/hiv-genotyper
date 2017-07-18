@@ -75,6 +75,10 @@ public class BoundGenotype {
 	public String getReferenceAccession() {
 		return reference.getAccession();
 	}
+	
+	public String getReferenceCountry() {
+		return reference.getCountry();
+	}
 
 	/** get genotype
 	 *

@@ -7,7 +7,7 @@ public class HIVGenotypeResult {
 
 	private List<BoundGenotype> genotypes;
 
-	protected HIVGenotypeResult(List<BoundGenotype> genotypes) {
+	public HIVGenotypeResult(List<BoundGenotype> genotypes) {
 		genotypes.sort((g1, g2) -> g1.getDistance().compareTo(g2.getDistance()));
 		this.genotypes = genotypes;
 	}

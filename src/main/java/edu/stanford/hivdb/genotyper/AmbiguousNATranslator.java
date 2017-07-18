@@ -29,7 +29,7 @@ public class AmbiguousNATranslator {
 	}
 
 	public static String translate(char na) {
-		return ambiguousNAs.get(na);
+		return ambiguousNAs.getOrDefault(na, "");
 	}
 
 }
