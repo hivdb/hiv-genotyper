@@ -78,3 +78,13 @@ local.properties
 __pycache__
 
 .DS_Store
+
+# ignored files
+src/main/resources/HIVGenotypeReferencesExtended.json
+src/main/resources/HIVGenotypeReferencesOrig.json
+local/
+rawresult*.tsv
+regressionresult.tsv
+src/test/java/edu/stanford/hivdb/genotyper/scripts/GenerateRawResult.java
+scripts/make_genotype_references.py
+
