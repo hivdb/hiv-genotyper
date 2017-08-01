@@ -1,7 +1,5 @@
 package edu.stanford.hivdb.genotyper;
 
-import static org.junit.Assert.*;
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

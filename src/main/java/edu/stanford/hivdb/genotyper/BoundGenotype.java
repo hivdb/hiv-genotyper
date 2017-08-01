@@ -79,6 +79,10 @@ public class BoundGenotype {
 	public String getReferenceCountry() {
 		return reference.getCountry();
 	}
+	
+	public Integer getReferenceYear() {
+		return reference.getYear();
+	}
 
 	/** get genotype
 	 *
@@ -155,8 +159,9 @@ public class BoundGenotype {
 	 * 2. The genotype is a sub-subtype of another subtype.
 	 *    In this case the subtype will be showed first.
 	 *    The sub-subtype will be between the following
-	 *    parentheses. For example, genotype A-FSU will be
-	 *    always displayed like "A (A_FSU) (3.1%)".
+	 *    parentheses. For example, (previous) genotype
+	 *    A-FSU will be always displayed like
+	 *    "A (A_FSU) (3.1%)".
 	 *
 	 * @return a human-friendly string
 	 */

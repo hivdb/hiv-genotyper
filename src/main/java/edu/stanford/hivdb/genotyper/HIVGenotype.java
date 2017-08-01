@@ -44,7 +44,11 @@ public class HIVGenotype implements Genotype {
 	private HIVGenotype() {}
 
 	public static HIVGenotype getInstance(String name) {
-		return genotypes.get(name);
+		HIVGenotype genotype = genotypes.get(name);
+		if (genotype == null) {
+			throw new NullPointerException(String.format("Cannot find subtype for %s.", name));
+		}
+		return genotype;
 	}
 
 	@Override

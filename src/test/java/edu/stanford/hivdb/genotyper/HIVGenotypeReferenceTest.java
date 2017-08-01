@@ -60,11 +60,11 @@ public class HIVGenotypeReferenceTest {
 			seqB.sequence, seqB.firstNA, seqB.lastNA);
 		BoundGenotype primary = result.getFirstMatch();
 		assertEquals("B", primary.getGenotype().getIndexName());
-		assertEquals("U63632", primary.getReference().getAccession());
+		assertEquals("AF042100", primary.getReference().getAccession());
 		/* removed 7 ambiguities and 4 SDRMs:
 		 *   RT67N:GAC=>AAC; RT70R:AAA=>AGA;
 		 *   RT184V:ATG=>GTG; RT219Q:AAA=>CAA
 		 */
-		assertEquals((60.0 - 11) / 1174, primary.getDistance(), 1e-10);
+		assertEquals((57.0 - 11) / 1174, primary.getDistance(), 1e-10);
 	}
 }
