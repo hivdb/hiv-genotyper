@@ -2078,10 +2078,10 @@
       }
     ]
   },
-  "X78": {
-    "name": "X78",
-    "displayName": "CRF78_cpx",
-    "parentGenotypes": "X01",
+  "X77": {
+    "name": "X77",
+    "displayName": "CRF77_cpx",
+    "parentGenotypes": "B|C|X01",
     "isSimpleCRF": true,
     "classificationLevel": "CRF",
     "distanceUpperLimit": 0.02,
@@ -2089,21 +2089,216 @@
       {
         "genotypeName": "C",
         "start": 2253,
-        "end": 2672
+        "end": 3009
       },
       {
-        "genotypeName": "X01",
-        "start": 2673,
-        "end": 3307
+        "genotypeName": "B",
+        "start": 3010,
+        "end": 3184
       },
       {
         "genotypeName": "C",
-        "start": 3308,
-        "end": 3445
+        "start": 3185,
+        "end": 4863
       },
       {
         "genotypeName": "X01",
-        "start": 3446,
+        "start": 4864,
+        "end": 5094
+      }
+    ]
+  },
+  "X78": {
+    "name": "X78",
+    "displayName": "CRF78_cpx",
+    "parentGenotypes": "B|C|X01",
+    "isSimpleCRF": true,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
+    "regions": [
+      {
+        "genotypeName": "C",
+        "start": 2253,
+        "end": 2671
+      },
+      {
+        "genotypeName": "X01",
+        "start": 2672,
+        "end": 3306
+      },
+      {
+        "genotypeName": "C",
+        "start": 3307,
+        "end": 3444
+      },
+      {
+        "genotypeName": "X01",
+        "start": 3445,
+        "end": 5094
+      }
+    ]
+  },
+  "X82": {
+    "name": "X82",
+    "displayName": "CRF82_cpx",
+    "parentGenotypes": "B|C",
+    "isSimpleCRF": true,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
+    "regions": [
+      {
+        "genotypeName": "C",
+        "start": 2253,
+        "end": 3795
+      },
+      {
+        "genotypeName": "B",
+        "start": 3796,
+        "end": 4432
+      },
+      {
+        "genotypeName": "C",
+        "start": 4433,
+        "end": 5094
+      }
+    ]
+  },
+  "X83": {
+    "name": "X83",
+    "displayName": "CRF83_cpx",
+    "parentGenotypes": "B|C",
+    "isSimpleCRF": true,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
+    "regions": [
+      {
+        "genotypeName": "C",
+        "start": 2253,
+        "end": 2606
+      },
+      {
+        "genotypeName": "B",
+        "start": 2607,
+        "end": 2694
+      },
+      {
+        "genotypeName": "C",
+        "start": 2695,
+        "end": 3795
+      },
+      {
+        "genotypeName": "B",
+        "start": 3796,
+        "end": 4167
+      },
+      {
+        "genotypeName": "C",
+        "start": 4168,
+        "end": 5094
+      }
+    ]
+  },
+  "X85": {
+    "name": "X85",
+    "displayName": "CRF85_BC",
+    "parentGenotypes": "B|C",
+    "isSimpleCRF": true,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
+    "regions": [
+      {
+        "genotypeName": "C",
+        "start": 2253,
+        "end": 2976
+      },
+      {
+        "genotypeName": "B",
+        "start": 2977,
+        "end": 3106
+      },
+      {
+        "genotypeName": "C",
+        "start": 3107,
+        "end": 5094
+      }
+    ]
+  },
+  "X86": {
+    "name": "X86",
+    "displayName": "CRF86_BC",
+    "parentGenotypes": "B|C",
+    "isSimpleCRF": true,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
+    "regions": [
+      {
+        "genotypeName": "C",
+        "start": 2253,
+        "end": 2637
+      },
+      {
+        "genotypeName": "B",
+        "start": 2638,
+        "end": 3191
+      },
+      {
+        "genotypeName": "C",
+        "start": 3192,
+        "end": 3507
+      },
+      {
+        "genotypeName": "B",
+        "start": 3508,
+        "end": 4532
+      },
+      {
+        "genotypeName": "C",
+        "start": 4533,
+        "end": 5094
+      }
+    ]
+  },
+  "X87": {
+    "name": "X87",
+    "displayName": "CRF87_cpx",
+    "parentGenotypes": "B|C",
+    "isSimpleCRF": true,
+    "classificationLevel": "CRF",
+    "distanceUpperLimit": 0.02,
+    "regions": [
+      {
+        "genotypeName": "B",
+        "start": 2253,
+        "end": 2445
+      },
+      {
+        "genotypeName": "C",
+        "start": 2446,
+        "end": 3123
+      },
+      {
+        "genotypeName": "B",
+        "start": 3124,
+        "end": 3934
+      },
+      {
+        "genotypeName": "C",
+        "start": 3935,
+        "end": 4452
+      },
+      {
+        "genotypeName": "B",
+        "start": 4453,
+        "end": 4800
+      },
+      {
+        "genotypeName": "X01",
+        "start": 4801,
+        "end": 4872
+      },
+      {
+        "genotypeName": "C",
+        "start": 4873,
         "end": 5094
       }
     ]
