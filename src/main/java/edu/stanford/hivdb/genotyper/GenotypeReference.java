@@ -143,6 +143,7 @@ public interface GenotypeReference {
 			}
 			int[][] treeNAs = mismatchTree[treeOffset + i];
 			char seqNA = sequence.charAt(seqOffset + i);
+			// Note: naIndice is empty if seqNA == '.'
 			int[] naIndice = getNAIndice(seqNA);
 			Map<Integer, Integer> mismatchRefs = new HashMap<>();
 			for (int naIdx : naIndice) {
