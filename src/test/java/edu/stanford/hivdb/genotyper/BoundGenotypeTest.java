@@ -30,15 +30,17 @@ public class BoundGenotypeTest {
 				HIVGenotypeResult result = HIVGenotypeReference.compareAll(
 					seq.sequence, seq.firstNA, seq.lastNA);
 				BoundGenotype primary = result.getFirstMatch();
-				assertEquals("B (3.58%)", primary.getDisplay());
+				assertEquals("B (3.18%)", primary.getDisplay());
+				assertEquals(1005, primary.getSequence().length());
 			}
 			else if (seq.accession.equals("DQ345008-DQ345037")) {
 				HIVGenotypeResult result = HIVGenotypeReference.compareAll(
 					seq.sequence, seq.firstNA, seq.lastNA);
 				BoundGenotype primary = result.getFirstMatch();
 				assertEquals("A (3.44%)", primary.getDisplay());
+				assertEquals(1047, primary.getSequence().length());
 			}
 		}
 	}
-
+	
 }

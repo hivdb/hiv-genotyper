@@ -13,8 +13,8 @@ public class HIVGenotypeReferenceTest {
 			seqX51.sequence, seqX51.firstNA, seqX51.lastNA);
 		BoundGenotype primary = result.getFirstMatch();
 		assertEquals("X51", primary.getGenotype().getIndexName());
-		assertEquals("JN029801", primary.getReference().getAccession());
-		assertEquals(66.0 / 2841, primary.getDistance(), 1e-10);
+		assertEquals("KJ485697", primary.getReference().getAccession());
+		assertEquals(65.0 / 2841, primary.getDistance(), 1e-10);
 		assertEquals("B", result.getFallbackMatch().getGenotype().getIndexName());
 
 		// test boundary cases
@@ -23,7 +23,7 @@ public class HIVGenotypeReferenceTest {
 		buf.setCharAt(2840, 'C');
 		result = HIVGenotypeReference.compareAll(
 			buf.toString(), seqX51.firstNA, seqX51.lastNA);
-		assertEquals(68.0 / 2841,result.getFirstMatch().getDistance(), 1e-10);
+		assertEquals(67.0 / 2841,result.getFirstMatch().getDistance(), 1e-10);
 	}
 
 	@Test
@@ -60,11 +60,11 @@ public class HIVGenotypeReferenceTest {
 			seqB.sequence, seqB.firstNA, seqB.lastNA);
 		BoundGenotype primary = result.getFirstMatch();
 		assertEquals("B", primary.getGenotype().getIndexName());
-		assertEquals("AF042100", primary.getReference().getAccession());
+		assertEquals("KJ704787", primary.getReference().getAccession());
 		/* removed 7 ambiguities and 4 SDRMs:
 		 *   RT67N:GAC=>AAC; RT70R:AAA=>AGA;
 		 *   RT184V:ATG=>GTG; RT219Q:AAA=>CAA
 		 */
-		assertEquals((57.0 - 11) / 1174, primary.getDistance(), 1e-10);
+		assertEquals(37.0 / 1174, primary.getDistance(), 1e-10);
 	}
 }
