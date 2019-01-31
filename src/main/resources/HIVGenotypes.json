@@ -80,9 +80,18 @@
     "distanceUpperLimit": 0.07,
     "regions": null
   },
-  "HIV2": {
-    "name": "HIV2",
-    "displayName": "HIV2",
+  "HIV2A": {
+    "name": "HIV2A",
+    "displayName": "HIV-2 Group A",
+    "parentGenotypes": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SPECIES",
+    "distanceUpperLimit": 0.25,
+    "regions": null
+  },
+  "HIV2B": {
+    "name": "HIV2B",
+    "displayName": "HIV-2 Group B",
     "parentGenotypes": null,
     "isSimpleCRF": false,
     "classificationLevel": "SPECIES",
