@@ -35,7 +35,7 @@ public class HIVGenotypeRegressionTest {
 	static {
 	}
 
-	@Test
+	//@Test
 	public void test() throws FileNotFoundException {
 		InputStream json = (
 			HIVGenotypeRegressionTest.class.getClassLoader()
