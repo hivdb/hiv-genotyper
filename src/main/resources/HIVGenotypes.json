@@ -98,6 +98,24 @@
     "distanceUpperLimit": 0.25,
     "regions": null
   },
+  "HIV2C": {
+    "name": "HIV2C",
+    "displayName": "HIV-2 Group C",
+    "parentGenotypes": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SPECIES",
+    "distanceUpperLimit": 0.25,
+    "regions": null
+  },
+  "HIV2D": {
+    "name": "HIV2D",
+    "displayName": "HIV-2 Group D",
+    "parentGenotypes": null,
+    "isSimpleCRF": false,
+    "classificationLevel": "SPECIES",
+    "distanceUpperLimit": 0.25,
+    "regions": null
+  },
   "J": {
     "name": "J",
     "displayName": "J",
